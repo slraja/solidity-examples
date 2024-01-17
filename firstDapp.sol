@@ -73,7 +73,31 @@ contract SimpleContract{
 
     //other key words - revert assert require 
 
+function globalVars(uint a, uint b) external view returns (address, uint, uint) {
+    address sender = msg.sender;
+    uint timestamp = block.timestamp;
+    uint blockNum = block.number; 
+    return (sender, timestamp, blockNum); 
+} 
 
+    function destructingAssigments()
+        public
+        pure
+        returns (
+            uint,
+            bool,
+            uint,
+            uint,
+            uint
+        )
+    {
+        (uint i, bool b, uint j) = returnMany();
+
+        // Values can be left out.
+        (uint x, , uint y) = (4, 5, 6);
+
+        return (i, b, j, x, y);
+    }
 
 
 }
