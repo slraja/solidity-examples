@@ -19,6 +19,7 @@ contract SimpleContract{
     bool isTime = (1 days == 24 hours);
     
     //special objects
+
     block.coinbase();
     block.difficulty;
 
@@ -82,7 +83,6 @@ function globalVars(uint a, uint b) external view returns (address, uint, uint) 
 
     function destructingAssigments()
         public
-        pure
         returns (
             uint,
             bool,

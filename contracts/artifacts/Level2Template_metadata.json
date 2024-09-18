@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Level2_2.sol": "Level2Template"
+			"contracts/03_SortArray_V2.sol": "Level2Template"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Level2_2.sol": {
+		"contracts/03_SortArray_V2.sol": {
 			"keccak256": "0xe1f887dbb621782498c6889c2a5aaa6fe36561e140c4b2bff871d15fd6684021",
 			"license": "MIT",
 			"urls": [
