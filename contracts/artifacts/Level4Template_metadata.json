@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numbe",
+						"type": "uint256"
+					}
+				],
+				"name": "solution",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/05_GreatestPowerOf2_Assembly.sol": "Level4Template"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/05_GreatestPowerOf2_Assembly.sol": {
+			"keccak256": "0xe72a51596639fe00493d6b7e84bad6eb61b44cc405ac38e56e81b30d492c21d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ccdc2ee3b6d03feb85c5b2d3d9c4330de832e2a2de2183b0e333cc4a1b27e7f",
+				"dweb:/ipfs/Qmc11oPYqqMZakFofsmw7pD2AJNZMj2A7nzGYzxCjgbNG6"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "packed",
+						"type": "bytes"
+					}
+				],
+				"name": "solution",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "a",
+						"type": "uint16"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes6",
+						"name": "c",
+						"type": "bytes6"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/04_UnpackABI.sol": "Level3Template"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/04_UnpackABI.sol": {
+			"keccak256": "0x293bc736f06620cb972927ac5dc9534f2fde99a7ab5a2ab1563c56a570f9baab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a1d80968441fb1f8cce183702837ed9662095f49b2f73599a6d6dbe0e464951",
+				"dweb:/ipfs/QmZSxMxXu75GcvSNyGxU5JnvzyrPiZz8FPgzvf9uJ44LdN"
+			]
+		}
+	},
+	"version": 1
+}
